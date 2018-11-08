@@ -4,8 +4,8 @@
   "output_namespace": "",
   "input_groups": [
     {
-      "name": "Instances-openstack_compute_instance_v2.RHEL73BE",
-      "label": "Instances - openstack_compute_instance_v2.RHEL73BE"
+      "name": "Instances-openstack_compute_instance_v2.pvc147",
+      "label": "Instances - openstack_compute_instance_v2.pvc147"
     },
     {
       "name": "Other",
@@ -107,8 +107,8 @@
       "immutable_after_create": false
     },
     {
-      "name": "RHEL73BE_name",
-      "label": "Rhel 73 Be Name",
+      "name": "pvc147_name",
+      "label": "Pvc 147 Name",
       "description": "Generated",
       "type": "string",
       "default": "",
