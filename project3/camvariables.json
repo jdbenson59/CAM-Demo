@@ -119,7 +119,7 @@
       "hidden": false,
       "immutable": false,
       "immutable_after_create": false
-    }
+    },
     {
       "name": "openstack_flavor_name",
       "label": "Openstack Flavor Name",
