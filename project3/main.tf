@@ -20,8 +20,8 @@ provider "openstack" {
 }
 
 
-resource "openstack_compute_instance_v2" "RHEL73-Proj3" {
-  name      = "${var.RHEL73-Proj3_name}"
+resource "openstack_compute_instance_v2" "RHEL73BE" {
+  name      = "${var.RHEL73BE_name}"
   image_name  = "${var.openstack_image_name}"
   flavor_name = "${var.openstack_flavor_name}"
   key_pair  = "${openstack_compute_keypair_v2.auth.id}"
