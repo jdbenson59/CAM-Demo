@@ -34,11 +34,6 @@ variable "openstack_region" {
   description = "Generated"
 }
 
-variable "RHEL73-Proj3_name" {
-  type = "string"
-  description = "Generated"
-}
-
 variable "openstack_image_name" {
   type = "string"
   description = "Generated"
