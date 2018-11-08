@@ -1,6 +1,6 @@
 #####################################################################
 ##
-##      Created 11/8/18 by admin. for project3
+##      Created 11/8/18 by admin. for project5
 ##
 #####################################################################
 
@@ -30,6 +30,11 @@ variable "openstack_auth_url" {
 }
 
 variable "openstack_region" {
+  type = "string"
+  description = "Generated"
+}
+
+variable "pvc147_name" {
   type = "string"
   description = "Generated"
 }
