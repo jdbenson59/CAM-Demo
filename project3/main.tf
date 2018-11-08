@@ -25,7 +25,3 @@ resource "openstack_compute_instance_v2" "pvc147" {
   image_name  = "${var.openstack_image_name}"
   flavor_name = "${var.openstack_flavor_name}"
 }
-
-resource "tls_private_key" "ssh" {
-    algorithm = "RSA"
-}
