@@ -24,14 +24,8 @@ resource "openstack_compute_instance_v2" "pvc147" {
   name      = "${var.pvc147_name}"
   image_name  = "${var.openstack_image_name}"
   flavor_name = "${var.openstack_flavor_name}"
-  key_pair  = "${openstack_compute_keypair_v2.auth.id}"
 }
 
 resource "tls_private_key" "ssh" {
     algorithm = "RSA"
-}
-
-resource "openstack_compute_keypair_v2" "auth" {
-    name = "${var.openstack_key_pair_name}"
-    public_key = "${tls_private_key.ssh.public_key_openssh}"
 }
