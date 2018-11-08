@@ -49,8 +49,3 @@ variable "openstack_flavor_name" {
   description = "Generated"
 }
 
-variable "openstack_key_pair_name" {
-  type = "string"
-  description = "Generated"
-}
-
